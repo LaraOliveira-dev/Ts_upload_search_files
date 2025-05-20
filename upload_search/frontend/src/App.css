@@ -1,0 +1,30 @@
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 60px;
+  margin-left: 3%;
+}
+
+.card {
+  border: 2px solid #569f59;
+  background-color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 5%;
+  width: 300px;
+  color: #050505;
+}
+
+.search-input {
+  margin-left: 10px;
+  border: none;
+}
+
+.space {
+  margin-right: 10px;
+}
+
+.card ul {
+  margin-top: 10px;
+}
